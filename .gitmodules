@@ -1,0 +1,176 @@
+[submodule "plugged/grep.vim"]
+	path = plugged/grep.vim
+	url = https://github.com/vim-scripts/grep.vim.git
+	branch = master
+[submodule "plugged/vim-rhubarb"]
+	path = plugged/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
+	branch = master
+[submodule "plugged/vim-airline"]
+	path = plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+	branch = master
+[submodule "plugged/vim-racer"]
+	path = plugged/vim-racer
+	url = https://github.com/racer-rust/vim-racer.git
+	branch = master
+[submodule "plugged/vim-airline-themes"]
+	path = plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+	branch = master
+[submodule "plugged/vim-javascript-syntax"]
+	path = plugged/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
+	branch = master
+[submodule "plugged/tagbar"]
+	path = plugged/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+	branch = master
+[submodule "plugged/CSApprox"]
+	path = plugged/CSApprox
+	url = https://github.com/vim-scripts/CSApprox.git
+	branch = master
+[submodule "plugged/vim-session"]
+	path = plugged/vim-session
+	url = https://github.com/xolox/vim-session.git
+	branch = master
+[submodule "plugged/rust.vim"]
+	path = plugged/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
+	branch = master
+[submodule "plugged/split-manpage.vim"]
+	path = plugged/split-manpage.vim
+	url = https://github.com/ludwig/split-manpage.vim.git
+	branch = master
+[submodule "plugged/vim-ruby-refactoring"]
+	path = plugged/vim-ruby-refactoring
+	url = https://github.com/ecomba/vim-ruby-refactoring.git
+	branch = master
+[submodule "plugged/requirements.txt.vim"]
+	path = plugged/requirements.txt.vim
+	url = https://github.com/raimon49/requirements.txt.vim.git
+	branch = master
+[submodule "plugged/vim-misc"]
+	path = plugged/vim-misc
+	url = https://github.com/xolox/vim-misc.git
+	branch = master
+[submodule "plugged/vim-lua-inspect"]
+	path = plugged/vim-lua-inspect
+	url = https://github.com/xolox/vim-lua-inspect.git
+	branch = master
+[submodule "plugged/fzf.vim"]
+	path = plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+	branch = master
+[submodule "plugged/vim-nerdtree-tabs"]
+	path = plugged/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+	branch = master
+[submodule "plugged/vim-bootstrap-updater"]
+	path = plugged/vim-bootstrap-updater
+	url = https://github.com/avelino/vim-bootstrap-updater.git
+	branch = master
+[submodule "plugged/vim-gitgutter"]
+	path = plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+	branch = master
+[submodule "plugged/vim-commentary"]
+	path = plugged/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+	branch = master
+[submodule "plugged/delimitMate"]
+	path = plugged/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+	branch = master
+[submodule "plugged/c.vim"]
+	path = plugged/c.vim
+	url = https://github.com/vim-scripts/c.vim.git
+	branch = master
+[submodule "plugged/vim-css3-syntax"]
+	path = plugged/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
+	branch = master
+[submodule "plugged/vim-haml"]
+	path = plugged/vim-haml
+	url = https://github.com/tpope/vim-haml.git
+	branch = master
+[submodule "plugged/vim-polyglot"]
+	path = plugged/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+	branch = master
+[submodule "plugged/indentLine"]
+	path = plugged/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+	branch = master
+[submodule "plugged/emmet-vim"]
+	path = plugged/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+	branch = master
+[submodule "plugged/jedi-vim"]
+	path = plugged/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+	branch = master
+[submodule "plugged/vim-snippets"]
+	path = plugged/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+	branch = master
+[submodule "plugged/vim-coloresque"]
+	path = plugged/vim-coloresque
+	url = https://github.com/gorodinskiy/vim-coloresque.git
+	branch = master
+[submodule "plugged/vim-vue"]
+	path = plugged/vim-vue
+	url = https://github.com/posva/vim-vue.git
+	branch = master
+[submodule "plugged/ale"]
+	path = plugged/ale
+	url = https://github.com/w0rp/ale.git
+	branch = master
+[submodule "plugged/vim-rake"]
+	path = plugged/vim-rake
+	url = https://github.com/tpope/vim-rake.git
+	branch = master
+[submodule "plugged/vimproc.vim"]
+	path = plugged/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+	branch = master
+[submodule "plugged/vim-projectionist"]
+	path = plugged/vim-projectionist
+	url = https://github.com/tpope/vim-projectionist.git
+	branch = master
+[submodule "plugged/vim-fugitive"]
+	path = plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+	branch = master
+[submodule "plugged/vim-rspec"]
+	path = plugged/vim-rspec
+	url = https://github.com/thoughtbot/vim-rspec.git
+	branch = master
+[submodule "plugged/nerdtree"]
+	path = plugged/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+	branch = master
+[submodule "plugged/molokai"]
+	path = plugged/molokai
+	url = https://github.com/tomasr/molokai.git
+	branch = master
+[submodule "plugged/vim-rails"]
+	path = plugged/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+	branch = master
+[submodule "plugged/vim-lua-ftplugin"]
+	path = plugged/vim-lua-ftplugin
+	url = https://github.com/xolox/vim-lua-ftplugin.git
+	branch = master
+[submodule "plugged/vim-vue-plugin"]
+	path = plugged/vim-vue-plugin
+	url = https://github.com/leafOfTree/vim-vue-plugin.git
+	branch = master
+[submodule "plugged/ultisnips"]
+	path = plugged/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+	branch = master
+[submodule "plugged/mru"]
+	path = plugged/mru
+	url = https://github.com/yegappan/mru.git
+	branch = master

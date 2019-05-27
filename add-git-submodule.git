@@ -1,0 +1,10 @@
+#! /bin/bash
+
+for plug in `find plugged/ -type d -name .git`; do
+    echo ">>> $plug"
+    plug_prefix=${plug%.git}
+    plug_remote=$(cd $plug/../; git remote get-url origin)
+    echo "> $plug_prefix $plug_remote"
+    git submodule add -f -b master --depth=1 $plug_remote $plug_prefix
+    echo
+done
