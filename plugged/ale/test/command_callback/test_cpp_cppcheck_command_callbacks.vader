@@ -1,0 +1,34 @@
+Before:
+  call ale#assert#SetUpLinterTest('cpp', 'cppcheck')
+  let b:command_tail = ' -q --language=c++ --enable=style %t'
+
+After:
+  unlet! b:command_tail
+  call ale#assert#TearDownLinterTest()
+
+Execute(The executable should be configurable):
+  AssertLinter 'cppcheck', ale#Escape('cppcheck') . b:command_tail
+
+  let b:ale_cpp_cppcheck_executable = 'foobar'
+
+  AssertLinter 'foobar', ale#Escape('foobar') . b:command_tail
+
+Execute(cppcheck for C++ should detect compile_commands.json files):
+  call ale#test#SetFilename('cppcheck_paths/one/foo.cpp')
+
+  AssertLinter 'cppcheck',
+  \ ale#path#CdString(ale#path#Simplify(g:dir . '/cppcheck_paths/one'))
+  \   . ale#Escape('cppcheck')
+  \   . ' -q --language=c++'
+  \   . ' --project=' . ale#Escape('compile_commands.json')
+  \   . ' --enable=style %t'
+
+Execute(cppcheck for C++ should detect compile_commands.json files in build directories):
+  call ale#test#SetFilename('cppcheck_paths/with_build_dir/foo.cpp')
+
+  AssertLinter 'cppcheck',
+  \ ale#path#CdString(ale#path#Simplify(g:dir . '/cppcheck_paths/with_build_dir'))
+  \   . ale#Escape('cppcheck')
+  \   . ' -q --language=c++'
+  \   . ' --project=' . ale#Escape(ale#path#Simplify('build/compile_commands.json'))
+  \   . ' --enable=style %t'
